@@ -61,6 +61,11 @@ nav a {
 }
 
 /* header related style */
+.profile-pic{
+    width: 600px;
+    height: 700px;
+    padding-right: 50px;
+}
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -97,10 +102,21 @@ nav a {
 }
 
 /* main section styles */
+main{
+    max-width:1140px ;
+    margin:0 auto ;
+}
 /* about section styles */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin:130px 0px ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
